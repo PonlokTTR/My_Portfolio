@@ -24,11 +24,11 @@ export default function Home() {
         <section className="container grid gap-4 justify-items-center md:grid-cols-2 grid-cols-1 py-16 h-100">
           <div>
             <Text variant="subheading" className="py-2 ">
-              Hello, It's Me
+              Hello It is Me
             </Text>
             <Text variant="heading" className="">K Boy Lok</Text>
             <Text variant="subheading" className="py-2">
-              And I'm a <span className="text-blue-400">Frontend Developer</span>
+              And Im a <span className="text-blue-400">Frontend Developer</span>
             </Text>
             <Text variant="body" className="py-4 ">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus

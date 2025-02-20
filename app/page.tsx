@@ -11,7 +11,6 @@ export default function Home() {
     { icon: FaInstagram, key: "instagram", url: "https://www.instagram.com/pov.ponlok.336/profilecard/?igsh=MXRycnY4N290Y3Q4Yw==" },
     { icon: FiMail, key: "mail", url: "https://ponlokpov2@gmail.com" },
   ];
-
   return (
     <div className="min-h-screen grid items-center pb-20 gap-16">
       <div className="area">

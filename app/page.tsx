@@ -12,7 +12,7 @@ export default function Home() {
     { icon: FiMail, key: "mail", url: "https://ponlokpov2@gmail.com" },
   ];
   return (
-    <div className="min-h-screen grid items-center pb-20 gap-16">
+    <div className="min-h-screen grid items-center gap-16">
       <div className="area">
         <ul className="circles">
           {Array.from({ length: 10 }).map((_, index) => (

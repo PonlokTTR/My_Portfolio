@@ -26,14 +26,7 @@ export default function Home() {
 
 
   return (
-    <div className="min-h-screen grid items-center gap-16">
-      <div className="area h-screen">
-        <ul className="circles">
-          {Array.from({ length: 10 }).map((_, index) => (
-            <li key={index} />
-          ))}
-        </ul>
-      </div>
+    <div className="min-h-screen grid items-center gap-16 ">
       <main className="flex flex-col gap-8">
         <section className="container grid gap-4 justify-items-center md:grid-cols-2 grid-cols-1 py-8 ">
           <div>
@@ -45,7 +38,7 @@ export default function Home() {
               And Im a <span className="text-blue-400">Frontend Developer</span>
             </Text>
             <Text variant="body" className="py-4 ">
-            Hello! I am Ponlok, a fresh graduate with a bachelor in Information Technology from Build Bright University.  I have trouble speaking from birth. I am a fast learner and a hard worker with experience in web development and would like to work as a frontend web developer.
+              Hello! I am Ponlok, a fresh graduate with a bachelor in Information Technology from Build Bright University. I am a fast learner and a hard worker with experience in web development and would like to work as a frontend developer.
             </Text>
             <div className="flex gap-4">
               {socialIcons.map(({ icon: Icon, key, url }) => (
@@ -62,13 +55,13 @@ export default function Home() {
             </div>
           </div>
           <div className="flex items-center justify-center shadow-lg shadow-blue-400/100 rounded-full w-[23rem] h-[23rem]">
-            <Image
+            {/* <Image
               aria-hidden
               src="/assets/fuck-u.png"
               alt="File icon"
               width={300}
               height={100}
-            />
+            /> */}
           </div>
         </section>
         <section className="container grid gap-4 justify-items-center py-8 ">
@@ -90,11 +83,10 @@ export default function Home() {
           </div>
           <div className="w-full border-t-2 border-dashed border-blue-400" /> 
         </section>
-        
+
         <section className="container grid gap-4 py-8">
           <Text variant="subheading" className="text-center text-blue-400">Expertise</Text>
           <div className="flex gap-8">
-            
             <div>
               <Text variant="title" className="mb-4">Skills</Text>
               <div className="flex gap-4 flex-wrap">
@@ -111,6 +103,42 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full border-t-2 border-dashed border-blue-400" /> 
+        </section>
+
+        <section className="container grid gap-4 py-8">
+          <Text variant="subheading" className="text-center text-blue-400">Job Experience</Text>
+          <div className="flex gap-8">
+            <div className="space-y-8">
+              <div>
+                <Text variant="smallheading" className="">Internship Network - Fly Computer </Text>
+                <span className="text-blue-400 text-lg">Jun 2022 – Aug 2022  </span>
+              </div>
+              <div className="">
+                <Text variant="smallheading" className="">Internship Laravel - eOcambo </Text>
+                <span className="text-blue-400 text-lg">Sep 2023 – Dec 2023 </span>
+              </div>   
+              <div className="">
+                <Text variant="smallheading" className="">Frontend Developer - Digital Government Committee</Text>
+                <span className="text-blue-400 text-lg">Jul 2024 – Present </span>
+              </div>
+            </div>
+          </div>
+          <div className="w-full border-t-2 border-dashed border-blue-400" /> 
+        </section>
+        <section className=" grid gap-4 ">
+        <footer className="w-full border-t-2 border-blue-400">
+                <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+                <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <span>Ponlok</span>. All Rights Reserved.
+                </span>
+                <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+                    <li>
+                      <Text variant="body">
+                      Powered by : <span className="text-blue-400">Next JS</span>
+                      </Text>
+                    </li>
+                </ul>
+                </div>
+            </footer>
         </section>
       </main>
     </div>

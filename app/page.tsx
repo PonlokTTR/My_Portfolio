@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Text from "./components/ui/text";
 import { FaFacebookF, FaInstagram, FaTelegramPlane } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
